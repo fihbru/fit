@@ -1,0 +1,76 @@
+:root {
+    --secondary-color: #f5f5f5;
+    --text-color: #000000;
+    --base-colour: #ffffff;
+    --primary-colour: #6a1306;
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+htiml {
+    color: var(--text-color);
+}
+
+body {
+    padding: 1em;
+    background-color: var(--base-colour);
+}
+
+nav {
+    margin: 1em auto 3em auto;
+    width: min(1000%px, 100%);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header, section {
+    margin: 2em auto;
+    width: min(75em, 100%);
+    padding: min(2em, 15%);
+    border-radius: 1em;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+header img {
+    max-width: 100%;
+    border-radius: 1em;
+    object-position: bottom;
+}
+
+.text-container p{
+    margin: .75em 0 1em 0;
+    font-size: 1.25rem;
+}
+
+.cta-button {
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(241, 239, 239);
+    background-color: var(--primary-colour);
+    padding: .75em 1.25em;
+    border-radius: .5em
+}
